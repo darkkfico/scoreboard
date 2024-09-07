@@ -1,0 +1,58 @@
+body{
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 250px;
+    background-color: #0284C7;
+    padding: 60px 40px;
+    border-radius: 20px;
+    border: 4px solid #0C4A6E;
+}
+
+.home , .guest {
+    text-align: center;
+}
+
+.leading{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home h1 , .guest h1{
+    color: white;
+}
+
+.home .score , .guest .score{
+    background-color: black;
+    height: 60px;
+    margin: 40px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home h2 , .guest h2{
+    color: #F94F6D;
+    font-size: 3rem;
+    padding: 10px 10px;
+    font-family: Cursed Timer ULiL;
+}
+
+button{
+    background-color: transparent;
+    border: 2px dashed #0C4A6E;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0 5px;
+    color: #0C4A6E;
+    transition: linear .2s;
+}
+
+button:hover{
+    border: 2px dashed white;
+    color: white;
+}
